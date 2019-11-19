@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CodeApps</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+</head>
+<body>
+  <nav class="nav-wrapper blue darken-1">
+
+    <div class="container">
+      <a href="#" class="brand-logo">CodeApps</a>
+      <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right  hide-on-med-and-down">
+        <li><a href="Cuartos.html">Cuartos</a></li>
+        <li><a href="Puerta.html">Puerta</a></li>
+        <li><a href="enchufeI.html">Enchufe inteligente</a></li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <ul class="sidenav" id="menu-responsive">
+    <li><a href="Cuartos.html">Cuartos</a></li>
+    <li><a href="Puerta.html">Puerta</a></li>
+    <li><a href="enchufeI.html">Enchufe Inteligente</a></li>
+  </ul>
+
+  <!--cards-->
+  <div class="container section">
+
+    <div class="row">
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/puerta.jpg" height="250px">
+            <span class="card-title" style="background-color:rgba(0, 0,0,.7)">Puerta</span>
+          </div>
+          <div class="card-content">
+            <div class="row">
+              <button  class="btn col s12" onclick="Swich('puerta',1);">Abrir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+  </script>
+  <script>
+      M.AutoInit();
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  <script src="./Js/firebase.js"></script>
+  <script src="./Js/funciones.js"></script>
+</body>
+</html>
