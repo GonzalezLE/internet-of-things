@@ -13,10 +13,10 @@ char t[32];
 #define enchufe 12
 
 // Variables vara manejar firebase
-#define FIREBASE_HOST "thehouse-506e7.firebaseio.com"
-#define FIREBASE_AUTH "Gf8ZjUKmIA55V9qVSr8khne5JzmWOd4ckW8glACa"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 #define WIFI_SSID "Totalplay-759A"
-#define WIFI_PASSWORD "759A2EEDKtewV864"
+#define WIFI_PASSWORD ""
 
 /***********************************************
  *                    Pines
